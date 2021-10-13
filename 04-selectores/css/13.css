@@ -1,0 +1,15 @@
+ul li:nth-child(2n+1) {
+    border: 2px solid red;
+}
+
+
+/* ul li:nth-child(odd) {
+    border: 2px solid red;
+}
+
+ul li:nth-child(even) {
+    border: 2px solid red;
+} */
+
+
+/* 2n + 1 */

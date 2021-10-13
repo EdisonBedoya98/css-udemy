@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.multiRootWorkspaceName": "css-udemy",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
