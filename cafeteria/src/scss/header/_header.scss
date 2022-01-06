@@ -1,0 +1,29 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+.header {
+  padding: 5rem 0;
+  position: relative;
+
+  @include m.tablet {
+  }
+
+  &::before {
+    content: "";
+    background-color: v.$negro;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+  }
+
+  .contenido-header {
+    position: relative;
+  }
+}
+
+//Header de cada página
+.header-inicio {
+  background-image: url(../img/header_inicio.jpg);
+}
